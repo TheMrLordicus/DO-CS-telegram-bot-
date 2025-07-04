@@ -1,0 +1,11 @@
+packages:
+
+    - name: csforce # you can rename it based on your project but must be as a folder path name ../csforce/js
+      actions:
+        - name: js
+          runtime: 'nodejs:18'
+          environment:
+            TELEGRAM_BOT_TOKEN: "YOUR_KEY"
+            SERVER_HOST: "IP.IP.IP.IP"
+            SERVER_PORT: "PORT"
+            WEBSITE_LINK: "Link for button"
